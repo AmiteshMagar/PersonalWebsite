@@ -76,7 +76,7 @@ nav a:focus{
     background-position: center;
     padding-top: 25em;
     padding-bottom: 7em;
-    margin-bottom: 2em;
+    margin-bottom: 0;
     color: #90a9c5;
     font-size: 175%;
     text-transform: uppercase;
@@ -92,4 +92,150 @@ nav a:focus{
     font-weight: lighter;
     font-size: 68%;
     text-transform: none;
+}
+
+/**Education area----------------*/
+
+.Edu{
+    background: linear-gradient( #010101, #30334f);
+    margin: 0;
+    padding-top: 0.5em;
+    border-top-style: solid;
+    border-top: #32271d;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: thick;
+    color: #90a9c5;
+    padding-bottom: 2em;
+    font-size: 21px
+}
+.Edu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Edu li{
+    display: inline-block;
+    padding: 2em;
+}
+
+#Edu_title{
+    color: #4e6bc8;
+    font-size: 38px;
+    position: relative;
+}
+
+.grad{
+    background-color: #181626;
+    border: 2px;
+    outline: 2px solid;
+    outline-offset: -2rem;
+    padding: 1em 3em 3em 3em;
+    font-size: 19px;
+}
+
+.grad p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.grad a{
+    text-decoration: none;
+    font-family: "Helvetica", sans-serif;
+}
+.grad a:visited{
+    color:#90a9c5;
+}
+.grad a:hover,
+.grad a:focus{
+    color: white;
+}
+
+.SeniorSecondary{
+    background-color: #181626;
+    outline: 2px solid;
+    outline-offset: -2rem;
+    padding: 1em 3em 3em 3em;
+    font-size: 19px;
+}
+.SeniorSecondary p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.School{
+    background-color: #181626;
+    outline: 2px solid;
+    outline-offset: -2rem;
+    padding: 1em 3em 3em 3em;
+    font-size: 19px;
+}
+.School p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.edu_sub_head{
+    font-size: 28px;
+}
+
+#Ex_title{
+    color: #4e6bc8;
+    font-size: 38px;
+    position: relative;
+}
+
+
+/*Experience and skills section*/
+
+#Exp{
+    background: linear-gradient( #30334f, #010101);
+    background-size: cover;
+    padding: 1em 2em 2em 2em;
+    color: #90a9c5;
+}
+
+.Exp h2{
+    font-size: 38px;
+    color: #4e6bc8;
+}
+.Skills_1{
+    font-size: 21px;
+}
+
+.Skills_1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+}
+.Skills_1 li{
+    padding: 0.5em;
+}
+
+.Skills_2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Skills_2 li{
+    display: inline-block;
+    padding: 3em;
+}
+
+.Exp h3{
+    font-size: 28px;
+    font
+}
+
+.exp_skills{
+    color: #807edb;
+}
+
+.Skills_3 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Skills_3 li{
+    padding: 0.5em;
 }
