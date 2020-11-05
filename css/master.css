@@ -239,3 +239,66 @@ nav a:focus{
 .Skills_3 li{
     padding: 0.5em;
 }
+
+/*Project section------------*/
+
+.project_button{
+    border: solid;
+    padding: 0.45em;
+    padding-bottom: 0.3em;
+    text-decoration: none;
+    font-family: "Helvetica", sans-serif;
+}
+.project_button:visited{
+    color:#90a9c5;
+}
+.project_button:hover,
+.project_button:focus{
+    color: white;
+}
+
+#Proj{
+    margin: 3em 0;
+}
+
+.Project_item{
+    margin: 0;
+    position: relative;
+}
+.Project_item img{
+    display: block;
+    align: center;
+}
+.Project_disc{
+    position:absolute;
+    z-index: 100;
+    bottom: 2em;
+    left: 20em;
+    right: 20em;
+    padding-bottom: 2em;
+    background-color: rgba(0,0,0,0.75);
+    color: #90a9c5;
+    font-size: 18px;
+}
+.Project_disc p{
+    margin: 1em;
+}
+
+@media (min-width: 700px) {
+    .Project_item{
+        width: 50%;
+        float: left;
+    }
+}
+@media (min-width: 1440px) {
+    .Project_item{
+        width: 33%;
+        overflow: hidden;
+    }
+    .Project_disc{
+        transform: translateY(150%);
+    }
+    .Project_item:hover .Project_disc{
+        transform: translate(0%);
+    }
+}
