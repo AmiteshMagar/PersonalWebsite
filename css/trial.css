@@ -1,0 +1,84 @@
+/*colors
+black: #212614
+brown: #B7832F
+grey: #707070
+white: #FFF
+*/
+
+
+body{
+    font-size: 1.25rem;
+    color: #707070;
+    margin: 0;
+    font-family: "Helvetica", "Robota", sans-serif;
+}
+
+
+/*typography*/
+h1{
+    font-size: 3rem;
+    color: #212614;
+    margin: 1em;
+
+}
+
+h1 span{
+    color: #B7832F;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+/*layout*/
+
+img{
+    max-width: 100%;
+    max-height: auto;
+    margin: 1em;
+}
+
+.container{
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+.col-1{
+    width: 25%;
+}
+.col-2{
+    width: 44%;
+}
+.col-3{
+    width: 66%;
+}
+
+@media (max-width: 700px) {
+    .col-1,
+    .col-2,
+    .col-3{
+        width: 100%;
+    }
+    .columns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1em;
+}
+
+.col-bg{
+    background: #212614;
+    padding: .5rem;
+    color: white;
+    padding-top: 0;
+}

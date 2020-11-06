@@ -290,7 +290,7 @@ nav a:focus{
         float: left;
     }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
     .Project_item{
         width: 33%;
         overflow: hidden;
