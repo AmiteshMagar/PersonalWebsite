@@ -1,0 +1,277 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import
+url('https://fonts.googleapis.com/css?family=Helvetica+Neue:300,400,700,900');
+@import
+url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,700,900');
+
+/*
+colors
+perfect blue: #4e6bc8
+light blue: #90a9c5
+light purple: #a790d9
+gradient black: #010101
+gradient purple: #30334f
+display box project bg: rgba(0,0,0,0.75)
+
+*/
+
+body{
+    color: #70afe9;
+    font-size: 16px;
+    font-family: "basic-sans", "Raleway", "Helvetica",  sans-serif;
+    margin: 0 auto;
+    background:url(../img/nathan-anderson-KvgB81s4dF0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* text-align: center; */
+}
+
+img{
+    width: 10%;
+}
+
+
+
+/* navigation bar */
+
+header{
+    background: rgba(0,0,0,1);
+    position:fixed;
+    width : 100%;
+    top: 0;
+    overflow: hidden;
+    padding: 0 1.5em;
+}
+
+.Page-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav-title{
+    color: #4e6bc8;
+    font-size: 2rem;
+    /* border: 1px solid blue; */
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-list-item{
+    list-style: none;
+    margin-right: 2.5em;
+}
+nav a{
+    padding: 0.25em 0;
+    text-decoration: none;
+    color: #a790d9;
+}
+nav a:hover,
+nav a:focus{
+    color: white
+}
+nav a:active{
+    color: white;
+    border: 2px solid red;
+}
+
+
+/* design */
+.container{
+    text-align: center;
+    /* border: 3px solid red; */
+    padding-top: 4em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1200px; */
+}
+
+/* hero design */
+#hero{
+    padding-top: 23em;
+    color: #90a9c5;
+    font-size: 1.5rem;
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 2em;
+}
+.hero-title{
+    font-size: 2.8rem;
+}
+/* end of hero section design */
+
+/* education section design */
+#education{
+    width: 100%;
+    background: #090909;
+}
+
+.education{
+    padding: 1em 5%;
+    text-align: center;
+}
+.extraC{
+    padding: 1em 5%;
+}
+
+.education-title,
+.extraC-title{
+    font-size: 2.4rem;
+}
+
+
+.education-list{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: auto; */
+    grid-column-gap: 1.2em;
+    align-items: center;
+}
+.education-list-item{
+    padding: 0 1em;
+}
+.education a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.extraC-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.extraC-list-items{
+    display: flex;
+}
+/* end of education design */
+
+
+/* experience and skills section */
+#experience-skills{
+    background: #22222e;
+}
+.experience-title,
+.proficiency-title{
+    font-size: 2.4rem;
+}
+.proficiency-images{
+    padding: 0 2em;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    justify-content: space-between;
+    align-content: center;
+    grid-column-gap: 2.5em;
+}
+.proficiency-images img{
+    width: 52%;
+}
+
+.experience-list{
+    list-style: none;
+    /* padding: 0.5em auto; */
+}
+.experience-list li{
+    padding: .5em;
+}
+/* end of experience and skills section */
+
+
+/* project section */
+#projects{
+    background: #222c39;
+    /* padding: 0 3em; */
+}
+.project-title{
+    font-size: 2.4rem;
+}
+.project-container{
+    padding: 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* grid-column-gap: 1em; */
+}
+.project-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-container figure{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.project-item figcaption{
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 1.2vw;
+    position: absolute;
+    height: 10%;
+    width: 80%;
+    float: center;
+    top: 69%;
+    left: 10%;
+    padding: 1em 0;
+}
+
+.project-item-text a{
+    position: relative;
+    color:inherit;
+    text-decoration: none;
+}
+
+/* end of project section */
+
+/* contct design */
+#contact{
+    background: #0a4c76;
+}
+.contact-title{
+    font-size: 2.4rem;
+}
+.contact-subtitle{
+    font-size: 1.7rem;
+}
+.contact-options ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0px;
+}
+.contact-options li{
+    margin: 0.5em;
+}
+.contact-options img{
+    height: 75%;
+    max-height: 80px;
+    width: auto;
+    padding: 0.5em;
+}
+
+
+/* footer design */
+#page-bottom{
+    color: #90a9c5;
+    background: #22222e;
+    /* margin: 0; */
+    padding-bottom: 1em;
+    width: 100%;
+}

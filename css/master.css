@@ -1,304 +1,60 @@
 @import
-url('https://fonts.googleapis.com/css?family=Bitter:300,400,700,900');
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import
+url('https://fonts.googleapis.com/css?family=Helvetica+Neue:300,400,700,900');
 @import
 url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,700,900');
-*{
-    box-sizing: border-box;
-}
+
+/*
+colors
+perfect blue: #4e6bc8
+light blue: #90a9c5
+light purple: #a790d9
+gradient black: #010101
+gradient purple: #30334f
+display box project bg: rgba(0,0,0,0.75)
+
+*/
 
 body{
+    font-size: 1.2rem;
+    font-family: "Helvetica Neue";
     margin: 0;
-    font-family: 'EB Garamond', 'Bitter', 'Helvetica', sans-serif;
-    text-align: center;
-
-}
-img{
-    max-width: 100%;
-    height: auto;
 }
 
-/*typography-----------------*/
-
-@media (max-width: 850px) {
-    #name_title{
-        color: #90a9c5;
-        font-size: 25px;
-    }
-    #subtitle{
-        display: block;
-        font-weight: lighter;
-        font-size: 68%;
-        text-transform: none;
-    }
+body img{
+    width: 60%;
 }
 
-/*header--------------*/
+ul img{
+    width: 15%;
+}
+
+/* header and nav section */
+
+
 header{
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin-top: 1em;
-}
-header h1{
-    font-size: 38px;
-    color:  #4e6bc8;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li{
-    display: inline-block;
-    margin: 1em;
-}
-
-nav a{
-    font-family: 'Helvetica', 'EB Garamond', sans-serif;
-    font-weight: bolder;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.85;
-    padding: 0.5em;
-    color:  #a790d9 ;
-}
-nav a:visited{color:  #a790d9 }
-nav a:hover,
-nav a:focus{
-    color: white;
-}
-/*Hero-area --------------------*/
-.Hero-area{
-    background: url(../img/nathan-anderson-KvgB81s4dF0-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 25em;
-    padding-bottom: 7em;
-    margin-bottom: 0;
-    color: #90a9c5;
-    font-size: 175%;
-    text-transform: uppercase;
-}
-
-#name_title{
-    color: #90a9c5;
-    font-size: 38px;
-}
-
-#subtitle{
-    display: block;
-    font-weight: lighter;
-    font-size: 68%;
-    text-transform: none;
-}
-
-/**Education area----------------*/
-
-.Edu{
-    background: linear-gradient( #010101, #30334f);
-    margin: 0;
-    padding-top: 0.5em;
-    border-top-style: solid;
-    border-top: #32271d;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    border-width: thick;
-    color: #90a9c5;
-    padding-bottom: 2em;
-    font-size: 21px
-}
-.Edu ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.Edu li{
-    display: inline-block;
-    padding: 2em;
-}
-
-#Edu_title{
-    color: #4e6bc8;
-    font-size: 38px;
-    position: relative;
-}
-
-.grad{
-    background-color: #181626;
-    border: 2px;
-    outline: 2px solid;
-    outline-offset: -2rem;
-    padding: 1em 3em 3em 3em;
-    font-size: 19px;
-}
-
-.grad p{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-.grad a{
-    text-decoration: none;
-    font-family: "Helvetica", sans-serif;
-}
-.grad a:visited{
-    color:#90a9c5;
-}
-.grad a:hover,
-.grad a:focus{
-    color: white;
-}
-
-.SeniorSecondary{
-    background-color: #181626;
-    outline: 2px solid;
-    outline-offset: -2rem;
-    padding: 1em 3em 3em 3em;
-    font-size: 19px;
-}
-.SeniorSecondary p{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-.School{
-    background-color: #181626;
-    outline: 2px solid;
-    outline-offset: -2rem;
-    padding: 1em 3em 3em 3em;
-    font-size: 19px;
-}
-.School p{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.edu_sub_head{
-    font-size: 28px;
-}
-
-#Ex_title{
-    color: #4e6bc8;
-    font-size: 38px;
-    position: relative;
-}
-
-
-/*Experience and skills section*/
-
-#Exp{
-    background: linear-gradient( #30334f, #010101);
-    background-size: cover;
-    padding: 1em 2em 2em 2em;
-    color: #90a9c5;
-}
-
-.Exp h2{
-    font-size: 38px;
-    color: #4e6bc8;
-}
-.Skills_1{
-    font-size: 21px;
-}
-
-.Skills_1 ul{
-    list-style: none;
-    margin: 0;
+    display: flex;
+    font-size: 0.9rem;
+    width: 90%;
+    margin: 1em 2.5em;
+    border: 1px solid violet;
     padding: 1em;
 }
-.Skills_1 li{
-    padding: 0.5em;
+.nav-title{
+    color: #4e6bc8;
 }
-
-.Skills_2 ul{
+nav ul{
     list-style: none;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.Skills_2 li{
-    display: inline-block;
-    padding: 3em;
-}
-
-.Exp h3{
-    font-size: 28px;
-    font
-}
-
-.exp_skills{
-    color: #807edb;
-}
-
-.Skills_3 ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.Skills_3 li{
-    padding: 0.5em;
-}
-
-/*Project section------------*/
-
-.project_button{
-    border: solid;
-    padding: 0.45em;
-    padding-bottom: 0.3em;
+nav a{
     text-decoration: none;
-    font-family: "Helvetica", sans-serif;
+    color: #a790d9;
 }
-.project_button:visited{
-    color:#90a9c5;
-}
-.project_button:hover,
-.project_button:focus{
-    color: white;
-}
+nav li{
 
-#Proj{
-    margin: 3em 0;
-}
 
-.Project_item{
-    margin: 0;
-    position: relative;
-}
-.Project_item img{
-    display: block;
-    align: center;
-}
-.Project_disc{
-    position:absolute;
-    z-index: 100;
-    bottom: 2em;
-    left: 20em;
-    right: 20em;
-    padding-bottom: 2em;
-    background-color: rgba(0,0,0,0.75);
-    color: #90a9c5;
-    font-size: 18px;
-}
-.Project_disc p{
-    margin: 1em;
-}
-
-@media (min-width: 700px) {
-    .Project_item{
-        width: 50%;
-        float: left;
-    }
-}
-@media (min-width: 1000px) {
-    .Project_item{
-        width: 33%;
-        overflow: hidden;
-    }
-    .Project_disc{
-        transform: translateY(150%);
-    }
-    .Project_item:hover .Project_disc{
-        transform: translate(0%);
-    }
 }
