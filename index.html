@@ -1,157 +1,175 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-    <meta name="veiwport" content="width-device-width, initial-scale=1 shrink-to-fit=no" charset="utf-8">
+
+    <meta charset="utf-8" name="veiwport" content="width-device-width, initial-scale=1 shrink-to-fit=no">
     <title>Amitesh - About Me</title>
     <link rel="stylesheet" href="css/master.css">
 </head>
 
-<body id="Page_Top">
-    <!-- header of document-->
-    <header>
-        <h1 class="nav nav-title">About Me</h1>
-        <nav>
-            <ul>
-                <li><a href="#Page_Top">Home</a></li>
-                <li><a href="#Edu">Education</a></li>
-                <li><a href="#Exp">Experience</a></li>
-                <li><a href="#Proj">Projects</a> </li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Hero area, first visible-->
-    <section class="Hero-area">
-        <h1 id="name_title">Amitesh Magar <br>
-            <span id="subtitle">IIT-Roorkee, ECE Undergraduate</span>
-        </h1>
-    </section>
 
-    <!-- Education display-->
-    <section class="Edu" id="Edu">
-        <h2 id="Edu_title">Education</h2>
-        <ul>
-            <li>
-                <div class="School">
-                    <h3 class="edu_sub_head">The Bishop's School, Camp</h3>
-                    <p>Secondary education upto class 10.<br>ICSE grade - A+<br>Teacher's remark: Outstanding</p>
+<body>
+    <header>
+        <div class="Page-top">
+            <div>
+                <h1 id="nav-title" class="navigation">About Me</h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="index1.html">Dashboard</a></li>
+                    <li class="nav-list-item"><a href="#education">Education</a></li>
+                    <li class="nav-list-item"><a href="#experience-skills">Experience</a></li>
+                    <li class="nav-list-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-list-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- closed page-top container -->
+    </header>
+
+    <!-- End of header -->
+
+    <!-- new section: Hero -->
+    <section class="container" id="hero">
+        <h1 class="hero-title">Amitesh Magar</h1>
+        <p class="hero-subtitle">ECE Undergraduate, IIT Roorkee</p>
+        <p class="hero-subtitle">Football, Machine Learning, Development. </p>
+    </section>
+    <!-- end of hero section    -->
+
+    <!-- new section: Education -->
+    <section class="container" id="education">
+        <div class="education">
+        <h1 class="education-title">Education</h1>
+        <ul class="education-list">
+            <li class="education-list-item">
+                <div class="education-list-item-chart">
+                    <h2>The Bishop's School, Camp</h2>
+                    <p>Secondary education upto class 10.<br>
+                        ICSE grade - A+<br>
+                        Teacher's remark: Outstanding</p>
                 </div>
             </li>
-            <li>
-                <div class="grad">
-                    <div id="iitrHead">
-                    <h3 class="edu_sub_head">IIT Roorkee</h3>
-                </div>
-                    <p>Bachelor of Technology in <strong>Electronics and Communication Engineering</strong>. <br>Batch of year 2023. </p>
-                    <p>For more information on insititue, visit -<a href="https://www.iitr.ac.in/" target="_blank"> IIT Roorkee</a></p>
+            <li class="education-list-item">
+                <div class="education-list-item-chart">
+                    <h2>IIT Roorkee</h2>
+                    <p>
+                        Bachelor of Technology in <strong> Electronics and Communication Engineering.</strong><br>
+                        Batch of year 2023.<br>
+                        <br>
+                        For more information on insititue, visit - <a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee</a>
+                    </p>
                 </div>
             </li>
-            <li>
-                <div class="SeniorSecondary">
-                    <h3 class="edu_sub_head">VPMS</h3>
-                    <p>Senior secondary edutation upto class 12.<br>CBSE - 92.8%</p>
+            <li class="education-list-item">
+                <div class="education-list-item-chart">
+                    <h2>VP Memorial School</h2>
+                    <p>Senior college education.<br>CBSE - 92.8%</p>
                 </div>
             </li>
         </ul>
-        <div class="ExtraCurr">
-            <h2 id="Ex_title">Extra-Curricular</h2>
+        </div>
+        <div class="extraC">
+        <h1 class="extraC-title">Extra Curricular</h1>
+        <ul class="extraC-list">
+            <li class="extraC-list-itme">Cooking</li>
+            <li class="extraC-list-itme">Reading</li>
+            <li class="extraC-list-itme">Football</li>
+            <li class="extraC-list-itme">Music</li>
+            <li class="extraC-list-itme">Traveling</li>
+            <li class="extraC-list-itme">Guitar</li>
+        </ul>
+        </div>
+    </section>
+    <!-- end of section Education -->
+
+    <!-- new section: Experience and Skills -->
+    <section class="container" id="experience-skills">
+        <div class="proficiency">
+            <h2 class="proficiency-title">Proficiency</h2>
+            <div class="proficiency-images">
+                <div>
+                    <img id="Html" src="img/HTML5_logo_256.png" alt="HTML5">
+                </div>
+                <div>
+                    <img id="css33" src="img/CSS3_logo_and_wordmark.svg.png" alt="css3">
+                </div>
+                <div>
+                    <img id="js" src="img/768px-JavaScript-logo.png" alt="JavaScript">
+                </div>
+                <div>
+                    <img id="Python" src="img/Python-PNG-File.png" alt="Python3">
+                </div>
+                <div>
+                    <img id="cpp" src="img/306px-ISO_C++_Logo.svg.png" alt="C++">
+                </div>
+            </div>
+            <!-- list of imgaes of Proficiency -->
+        </div>
+        <!-- closed div of proficiency -->
+        <div class="experience">
+            <h2 class="experience-title">Experience</h2>
+            <ul class="experience-list">
+                <li class="experience-list-items">Group project under Dr.Bishnu Das of Electronics and Computer Department.</li>
+                <li class="experience-list-items">Numerous projects in Python and Web-development.</li>
+            </ul>
+        </div>
+        <!-- closed experience div -->
+    </section>
+    <!-- end of section Experience and skills -->
+
+    <!-- new section: Projects -->
+    <section class="container" id="projects">
+        <h1 class="project-title">Projects</h1>
+        <div class="project-container">
+            <figure class="project-item">
+                <img src="img/nathan-anderson-KvgB81s4dF0-unsplash.jpg" alt="Source code of the website">
+                <figcaption class="project-item-text">
+
+                    <a href="https://github.com/AmiteshMagar/PersonalWebsite" class="project-item-button" target="_blank">Personal Website Source-Code</a>
+                </figcaption>
+            </figure>
+            <figure  class="project-item">
+                <img src="img/prg_bg.jpg" alt="Code Editor">
+                <figcaption class="project-item-text">
+                    <a href="https://github.com/AmiteshMagar/SimpleTextEditor" class="project-item-button" target="_blank">Basic Code Editor</a>
+                </figcaption>
+            </figure>
+            <figure  class="project-item">
+                <img src="img/Contract-PCB-assembly.jpg" alt="32-bit ALU in Verilog">
+                <figcaption class="project-item-text">
+
+                    <a href="https://github.com/rochakjain361/IEEE_ALU_ECN-104" class="project-item-button" target="_blank">32-bit FPGA ALU designed in Verilog</a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- end of section Projects -->
+
+    <!-- new section: contact -->
+    <section id="contact" class="container">
+        <h1 class="contact-title">Contact Me</h1>
+        <p class="contact-subtitle">You can contact me on any of these platforms.</p>
+        <div class="contact-options">
             <ul>
-                <li>Traveling</li>
-                <li>Music</li>
-                <li>Guitar</li>
-                <li>Football</li>
-                <li>Reading</li>
-                <li>Cooking</li>
+                <li id="img1"><a href="https://github.com/AmiteshMagar"> <img src="img/github_PNG58.png" alt="Github"> </a></li>
+                <li id="img2"><a href="https://www.facebook.com/AmiteshTheGod111/"><img src="img/Facebook-logo.png" alt="Facebook"></a></li>
+                <li id="img3"><a href="https://www.instagram.com/amiteshm25/?hl=en"><img src="img/instagram-logo-svg-vector-for-print.svg" alt="Instagram"></a></li>
+                <li id="img4"><a href="https://www.linkedin.com/in/amitesh-magar-1a296b1a3/"><img src="img/linkedin-icon-white-png-26.png" alt="LinkedIn"></a></li>
+                <li id="img5"><a href="mailto:amitesh.magar@gmail.com"> <img src="img/email-logo-png-27.png" alt="Personal mail"></a></li>
             </ul>
         </div>
     </section>
+    <!-- end of section contacts -->
 
-    <!-- Skills and Experience display-->
-    <section class="Exp" id="Exp">
-        <h2 class="Exp Exp_title">Experience and Skills</h2>
-        <div class="Skills_1">
-            <h3 class="exp_skills">Skills</h3>
-            <ul>
-                <li>Machine Learning and Data Science</li>
-                <li>Web-Development</li>
-                <li>Software Development in Python3</li>
-            </ul>
-        </div>
-        <div class="Skills_2">
-            <h3 class="exp_skills">Proficiency</h3>
-            <ul>
-                <li><img src="img/HTML5_logo_256.png" alt="HTML5"></li>
-                <li> <img src="img/CSS3_logo_and_wordmark.svg.png" alt="css3"> </li>
-                <li> <img src="img/768px-JavaScript-logo.png" alt="JavaScript"> </li>
-                <li> <img src="img/Python-PNG-File.png" alt="Python3"></li>
-                <li> <img src="img/306px-ISO_C++_Logo.svg.png" alt="C++"> </li>
-            </ul>
-        </div>
-        <div class="Skills_3">
-            <h3 class="exp_skills">Experience</h3>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </section>
-
-    <!--Projects section-->
-    <section id="Proj">
-        <h2 class="Exp_title Exp">Projects</h2>
-        <!-- Project display 1-->
-        <figure class="Project_item">
-            <img src="img/nathan-anderson-KvgB81s4dF0-unsplash.jpg" alt="Personal Website Source-Code">
-            <figcaption class="Project_disc">
-                <p>Personal Website Source-Code</p>
-                <a href="https://github.com/AmiteshMagar/PersonalWebsite" class="project_button" target="_blank">GO</a>
-            </figcaption>
-        </figure>
-        <!-- Project display 2-->
-        <figure class="Project_item">
-            <img src="img/prg_bg.jpg" alt="Code Editor ">
-            <figcaption class="Project_disc">
-                <p>Code Editor</p>
-                <a href="https://github.com/AmiteshMagar/SimpleTextEditor" class="project_button" target="_blank">GO</a>
-            </figcaption>
-        </figure>
-        <!-- Project display 3
-        <figure class="Project_item">
-            <img src="" alt="project_1">
-            <figcaption class="Project_disc">
-                <p>Project Title 3</p>
-                <a href="" class="project_button">View 3</a>
-            </figcaption>
-        </figure>
-    -->
-        <!-- Project display 4-->
-        <figure class="Project_item">
-            <img src="img/69167_67_guerrilla-dev-ps3s-cell-cpu-far-faster-todays-intel-cpus.jpg" alt="32-Bit FPGA ALU">
-            <figcaption class="Project_disc">
-                <p>32-bit FPGA ALU Designed in Verilog</p>
-                <a href="https://github.com/rochakjain361/IEEE_ALU_ECN-104" class="project_button">GO</a>
-            </figcaption>
-        </figure>
-
-        <h2><a href="https://github.com/AmiteshMagar" target="_blank">GitHub profile</a></h2>
-    </section>
-    <!--Footer of the page-->
-    <footer id="Contact">
-        <h2 class="foot_title">Contact Me</h2>
-        <div class="footer_text">
-            <p>You can contact me on either of these platforms</p>
-        </div>
-        <div class="foot">
-            <ul class="contact_list">
-                <li><a href="https://github.com/AmiteshMagar">GitHub</a></li>
-                <li> <a href="https://www.facebook.com/AmiteshTheGod111/">Facebook</a></li>
-                <li> <a href="https://www.instagram.com/amiteshm25/?hl=en">Instagram</a></li>
-                <li> <a href="https://www.linkedin.com/in/amitesh-magar-1a296b1a3/">LinkedIn</a></li>
-                <li> <a href="mailto:amitesh.magar@gmail.com">Professional Email</a></li>
-            </ul>
-        </div>
+    <!-- new footer section -->
+    <footer class="container" id="page-bottom">
+        <h1>Amitesh Magar</h1>
+        <h2>2020</h2>
     </footer>
+    <!-- end of footer section -->
 </body>
 
 </html>
